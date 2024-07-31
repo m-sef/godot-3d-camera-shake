@@ -6,15 +6,14 @@ Minimalalist Camera3D script for a first person camera with realisitic camera sh
 
 # Usage
 Copy and paste the camera.gd script into your Godot project, and apply it to a Camera3D node. Tweak the following export properties to your preference:
-* Camera Shake Scale
-  * Describes the relationship between trauma and camera shake
-* Shake Intensity
-  * Vector3 describing intensity of camera shake on each axis
+* Shake Scale
+  * The power that trauma is raised to in order to calculate camera shake. 
+* Intensity
+  * Vector3 describing the intensity of the camera shake on each axis.
 * Trauma Decay
   * The rate at which trauma decays
-* Trauma Min
-  * Minimum trauma. Change to a non-zero value for a found footage feel.
-* Trauma Max
+* Passive Trauma
+  * The minimum amount of trauma. Set to a non-zero value for a found footage feel.
 * Mouse Sensitivity
-* Follow Speed
-  * Speed at which the camera's rotation will interpolate to the camera's target rotation.
+* Follow Weight
+  * The weight for interpolating the camera's actual rotation to it's target rotation
