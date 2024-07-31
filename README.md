@@ -2,7 +2,7 @@
 > [!NOTE]
 > This script was made for Godot 4
 
-Minimalalist Camera3D script for a first person camera with realisitic camera shake and interpolated rotation, based off of an implementation discussed in this [GDC video](https://www.youtube.com/watch?v=tu-Qe66AvtY).
+Minimalist Camera3D script with realisitic camera shake and interpolated rotation, based off of an implementation discussed in this [GDC video](https://www.youtube.com/watch?v=tu-Qe66AvtY).
 
 # Usage
 Copy and paste the camera.gd script into your Godot project, and apply it to a Camera3D node. Tweak the following export properties to your preference:
