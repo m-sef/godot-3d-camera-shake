@@ -26,6 +26,8 @@ script = ExtResource("1_ojuns")
 [node name="Camera3D" type="Camera3D" parent="."]
 current = true
 script = ExtResource("1_43lvv")
+shake_scale = 2
+passive_trauma = 0.1
 
 [node name="Control" type="Control" parent="."]
 layout_mode = 3

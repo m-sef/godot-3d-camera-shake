@@ -18,7 +18,7 @@ func _process(delta) -> void:
 	if Input.is_action_pressed("ui_accept"):
 		camera.add_trauma(1.0 * delta)
 	
-	debug_label.text = "Shake: " + str(camera._shake).pad_decimals(3)
+	debug_label.text = "Shake: " + str(camera.get_shake()).pad_decimals(3)
 	debug_label.text += "\nScale: " + str(camera.shake_scale)
 	debug_label.text += "\nIntensity: " + str(camera.intensity)
 	debug_label.text += "\nTrauma: " + str(camera._trauma).pad_decimals(3)
