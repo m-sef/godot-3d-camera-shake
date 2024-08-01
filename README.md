@@ -2,7 +2,7 @@
 > [!NOTE]
 > This script was made for Godot 4
 
-Minimalist Camera3D script with realisitic camera shake and interpolated rotation, based off of an implementation discussed in this [GDC video](https://www.youtube.com/watch?v=tu-Qe66AvtY).
+Minimalist Camera3D script with realistic camera shake and interpolated rotation, based off of an implementation discussed in this [GDC video](https://www.youtube.com/watch?v=tu-Qe66AvtY).
 
 # How It Works
 Displaces the camera's rotation by sampling noise and multiplying it against the camera's shake, which is the camera's trauma raised to the power indicated by the camera's ShakeScale. 
